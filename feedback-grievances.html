@@ -50,7 +50,7 @@
           &nbsp; <img src="assets/img/Flag_of_India.svg.png" style="width: 24px;">
           Government of India</div>
         <div class="col-md-8 text-end topbar-right d-none d-sm-block">
-          <span><a href="screen-reader.html" class="active">Screen Reader</a> &nbsp; | </span>
+          <span><a href="screen-reader.html">Screen Reader</a> &nbsp; | </span>
           <!-- <span><a href="">English</a> &nbsp; |</span> -->
           <span>
             <select class="language"><option>English</option><option>Hindi</option></select>
@@ -75,7 +75,7 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
             <li>
-              <a class="nav-link scrollto active" href="index.html">Home</a>
+              <a class="nav-link scrollto " href="index.html">Home</a>
             </li>
             <!-- <li><a class="nav-link scrollto" href="#about">History</a></li> -->
             <li class="dropdown">
@@ -93,7 +93,7 @@
               </ul>
             </li>
             <li>
-              <a class="nav-link scrollto" href="feedback-grievances.html">Feedback & Grievances</a>
+              <a class="nav-link scrollto active" href="feedback-grievances.html">Feedback & Grievances</a>
             </li>
             <li><a class="nav-link scrollto" href="#">e-Library</a></li>
             <li class="dropdown">
@@ -123,7 +123,7 @@
             <ol class="breadcrumb text-center mt-10 white">
               <li><a href="index.html">Home</a></li>
               <li>/</li>
-              <li><a href="#">Screen Reader</a></li>
+              <li><a href="#">Feedback & Grievances</a></li>
             </ol>
           </div>
         </div>
@@ -138,19 +138,67 @@
           <div class="row">
             <div class="col-12">
               <div class="screen-reader">
-                <h1>Screen Reader</h1>
-                <p>High Court of Delhi platform will enable people with visual impairments access the website using assistive technologies, such as screen readers. The information of the website is accessible with different screen readers, such as NVDA.</p>
-                <p>Information related to the various screen readers</p>
-                <table class="table"><tbody><tr><th>SCREEN READER</th>
-                  <th>WEBSITE</th>
-                  <th>FREE</th>
-                  </tr><tr><td>Non Visual Desktop Access (NVDA)</td>
-                  <td><a href="https://www.nvaccess.org/" target="_blank" title="https://www.nvaccess.org/" class="jquery-once-4-processed">https://www.nvaccess.org/</a></td>
-                  <td>Free</td>
-                  </tr><tr><td>System Access To Go</td>
-                  <td><a href="https://www.satogo.com/en/" target="_blank" title="https://www.satogo.com/en/" class="jquery-once-4-processed">https://www.satogo.com/en/</a></td>
-                  <td>Free</td>
-                  </tr></tbody></table>
+                <h1>Feedback & Grievances</h1>
+                <div class="form-wrap mt-4">
+                <form id="survey-form">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Select Category</option>
+                          <option value="1">Complaints</option>
+                          <option value="2">Grievances</option>
+                          <option value="3">Feedback</option>
+                          <option>Suggestion</option>
+                        </select>
+                      </div>
+                    </div>
+                   
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Email Id*" class="form-control" required>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <input type="file"  placeholder="Email Id" class="form-control" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea  id="comments" class="form-control" name="comment" placeholder="Remarks"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="captch_box text-center">
+                        <div class="row">
+                          <div class="col-lg-4">
+                      <div class="captcha-bg">xsdce</div>
+                      </div>
+                      <div class="col-lg-2 p-0">
+                      <div class="login-referesh"><a class="refresh"><i class="bi bi-arrow-repeat"></i></a></div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                      <input type="" placeholder="Enter Captcha" class="form-control">
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="col-md-5"></div>
+                    <div class="col-md-3 text-end">
+                      <button type="submit" id="submit" class="btn me-2 btn_cancle btn-block">Cancel</button> 
+                      <button type="submit" id="submit" class="btn btn_submit  btn-block">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
               </div>
             </div>
           </div>

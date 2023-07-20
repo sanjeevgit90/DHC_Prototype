@@ -50,7 +50,7 @@
           &nbsp; <img src="assets/img/Flag_of_India.svg.png" style="width: 24px;">
           Government of India</div>
         <div class="col-md-8 text-end topbar-right d-none d-sm-block">
-          <span><a href="screen-reader.html" class="active">Screen Reader</a> &nbsp; | </span>
+          <span><a href="screen-reader.html">Screen Reader</a> &nbsp; | </span>
           <!-- <span><a href="">English</a> &nbsp; |</span> -->
           <span>
             <select class="language"><option>English</option><option>Hindi</option></select>
@@ -75,7 +75,7 @@
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
             <li>
-              <a class="nav-link scrollto active" href="index.html">Home</a>
+              <a class="nav-link scrollto " href="index.html">Home</a>
             </li>
             <!-- <li><a class="nav-link scrollto" href="#about">History</a></li> -->
             <li class="dropdown">
@@ -98,14 +98,14 @@
             <li><a class="nav-link scrollto" href="#">e-Library</a></li>
             <li class="dropdown">
               <a href="#"><span>User Manual</span>
-              </a>
+               </a>
               <!-- <ul>
                 <li><a href="#">Photo Galley</a></li>
                 <li><a href="#">Video Gallery</a></li>
               </ul> -->
             </li>
-
-
+            
+           
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -123,7 +123,7 @@
             <ol class="breadcrumb text-center mt-10 white">
               <li><a href="index.html">Home</a></li>
               <li>/</li>
-              <li><a href="#">Screen Reader</a></li>
+              <li><a href="#">e-Filling</a></li>
             </ol>
           </div>
         </div>
@@ -138,19 +138,50 @@
           <div class="row">
             <div class="col-12">
               <div class="screen-reader">
-                <h1>Screen Reader</h1>
-                <p>High Court of Delhi platform will enable people with visual impairments access the website using assistive technologies, such as screen readers. The information of the website is accessible with different screen readers, such as NVDA.</p>
-                <p>Information related to the various screen readers</p>
-                <table class="table"><tbody><tr><th>SCREEN READER</th>
-                  <th>WEBSITE</th>
-                  <th>FREE</th>
-                  </tr><tr><td>Non Visual Desktop Access (NVDA)</td>
-                  <td><a href="https://www.nvaccess.org/" target="_blank" title="https://www.nvaccess.org/" class="jquery-once-4-processed">https://www.nvaccess.org/</a></td>
-                  <td>Free</td>
-                  </tr><tr><td>System Access To Go</td>
-                  <td><a href="https://www.satogo.com/en/" target="_blank" title="https://www.satogo.com/en/" class="jquery-once-4-processed">https://www.satogo.com/en/</a></td>
-                  <td>Free</td>
-                  </tr></tbody></table>
+                <div class="form-wrap_login mt-4">
+                <form id="survey-form">
+                  <h2 class="heding_loging">Log In</h2>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label>Login ID<sup>*</sup></label>
+                        <input type="text" name="login"  placeholder="Login Id" class="form-control" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <label>Password<sup>*</sup></label>
+                        <input type="password" name="pass" id="email" placeholder="Password" class="form-control" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="captch_box text-center">
+                        <div class="row">
+                          <div class="col-lg-3">
+                      <div class="captcha-bg">xsdce</div>
+                      </div>
+                      <div class="col-lg-2">
+                      <div class="login-referesh"><a class="refresh"><i class="bi bi-arrow-repeat"></i></a></div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="form-group">
+                      <input type="" placeholder="Enter Captcha" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <button type="submit" id="submit" class="btn btn_submit  btn-block">Submit</button>
+                  </div>
+                  </div>
+                  </div>
+                  <p class="lgpass"><span>Login Id and Password are case sensitive</span><br>Not Registered ? <a href="">Register as Advocate/party In-Person</a><br>Forgot Password? <a href="">Click Here</a></p>
+                  </div>
+                  </div>
+                </form>
+              </div>
               </div>
             </div>
           </div>
