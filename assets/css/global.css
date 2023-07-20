@@ -1,0 +1,33 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.header_bg {
+  background-color: #F5C034;
+  padding: .6rem 0;
+}
+.top_left {
+  display: flex;
+}
+.top_left ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.top_left li {
+  list-style: none;
+  padding:0 1rem 0 0;
+  line-height: 40px;
+}
+.top_left li i {
+  font-size: 18px;
+}
+.top-right {
+
+}
+.google-play {
+  text-align: right;
+}
+.cqw_logo {
+  width: 15%;
+}
